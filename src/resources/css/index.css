@@ -1,0 +1,112 @@
+html {
+    color: rgb(143, 143, 143);
+}
+
+.logo {
+    font-size: 10px;
+    color: rgb(136, 134, 134);
+    font-family: serif;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #cfcece;
+}
+
+.contact-form__heading {
+    font-size: 13px;
+    font-family: serif;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 60%;
+    line-height: 2;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    width: 170px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+
+.form__group-content {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.form__input--text {
+    display: flex;
+}
+
+.form__input--text input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.form__input--text input:last-child {
+    margin-right: 0;
+}
+
+.form__input--radio label {
+    margin-right: 70px;
+}
+
+.form__input--tel {
+    display: flex;
+    gap: 10px;
+}
+
+.form__input--tel input {
+    flex: 1;
+    text-align: center;
+}
+
+.form__select {
+    width: 50%;
+    color: #696868;
+}
+
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 5px 30px;
+    background-color: rgb(140, 135, 135);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    accent-color: black;
+}

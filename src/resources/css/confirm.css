@@ -1,0 +1,83 @@
+html {
+    color: rgb(143, 143, 143);
+}
+
+.logo {
+    font-size: 10px;
+    color: rgb(136, 134, 134);
+    font-family: serif;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #cfcece;
+}
+
+.contact-form__heading {
+    font-size: 13px;
+    font-family: serif;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 60%;
+    line-height: 2;
+}
+
+.confirm-table__inner {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.confirm-table__header {
+    padding: 0 30px;
+    width: 30%;
+    border-bottom: 1px solid #ddd;
+    color: white;
+    background-color: #D3D1CB;
+    text-align: left;
+}
+
+.confirm-table__text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__buttons {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* ボタンとリンクの間隔 */
+}
+
+.form__button-submit {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: rgb(50, 48, 44);
+    color: #fff;
+    cursor: pointer;
+}
+
+.revise {
+    padding: 1px;
+    color: rgb(50, 48, 44);
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+}
